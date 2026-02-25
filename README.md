@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finance Tracker (Next.js)
 
-## Getting Started
+A simple personal finance tracking app built with Next.js and TypeScript. Tracks income, expenses, and summarizes balances. Includes authentication via Clerk and a typed API surface with tRPC.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Landing page (public)
+- User authentication (Clerk)
+- Add / edit / delete transactions
+- Monthly summaries and balance overview
+- Protected routes for user data
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech stack (observed)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js (server + routes)
+- React
+- TypeScript
+- Clerk (authentication)
+- tRPC (API routing)
+- Node.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+(Optional / commonly paired)
 
-## Learn More
+- Tailwind CSS (UI)
+- Prisma + PostgreSQL (database)
+- Vercel for deployment
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Recommended: Vercel. Ensure Clerk environment variables are set in the deployment settings.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- MIT
