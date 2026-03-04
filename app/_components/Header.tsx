@@ -14,7 +14,7 @@ function Header() {
         <UserButton />
       ) : (
         <Link href="/sign-in">
-          <Button>Get Started</Button>
+          <Button className="cursor-pointer">Get Started</Button>
         </Link>
       )}
     </div>
